@@ -2,7 +2,7 @@ pipeline {
     agent { label 'docker' }
 
     environment {
-        DOCKERHUB_USER = "lakshmanhari"
+        DOCKERHUB_USER = "akshmanhari"
         IMAGE = "docker.io/${DOCKERHUB_USER}/demo-app"
         TAG = "${BUILD_NUMBER}"
     }
